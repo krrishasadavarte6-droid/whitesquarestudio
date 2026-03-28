@@ -1,5 +1,5 @@
 
-import Main_image from "../assets/main_home.jpg";
+const Main_image = "/assets/main_home.jpg";
 const Hero = () => {
   return (
     <section

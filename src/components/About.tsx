@@ -1,5 +1,5 @@
 
-import vision_image from '../assets/Vision.jpg';
+const vision_image = "/assets/Vision.jpg";
 const About = () => {
     return (
         <section id="about" style={{ padding: '8rem 5%', backgroundColor: 'var(--bg-secondary)', position: 'relative', overflow: 'hidden' }}>

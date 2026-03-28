@@ -25,3 +25,4 @@ dist-ssr
 
 # Large media assets (images & videos) — too large for GitHub
 src/assets/
+public/assets/

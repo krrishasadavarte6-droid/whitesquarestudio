@@ -1,15 +1,17 @@
 import { useState, useRef, useEffect } from 'react';
 import { Play, X, ChevronLeft, ChevronRight } from 'lucide-react';
+import manifest from '../assets-manifest.json';
 
-const videoModules = import.meta.glob('../assets/VIDEO/*.mp4', { eager: true, query: '?url', import: 'default' });
-const posterModules = import.meta.glob('../assets/**/*.{jpg,jpeg,png}', { eager: true, query: '?url', import: 'default' });
+// Filter videos from manifest
+const videos = manifest
+  .filter(item => item.path.endsWith('.mp4'))
+  .map((item, index) => {
+    const name = item.base.replace(/_/g, ' ');
+    return { id: index + 1, title: name, src: item.path };
+  });
 
-const fallbackPoster = Object.entries(posterModules).find(([p]) => p.includes('Bungalow'))?.[1] as string;
-
-const videos = Object.entries(videoModules).map(([path, url], index) => {
-  const name = path.split('/').pop()!.replace(/\.[^/.]+$/, '').replace(/_/g, ' ');
-  return { id: index + 1, title: name, src: url as string };
-});
+// Pick a fallback poster from images
+const fallbackPoster = manifest.find(item => item.path.includes('Bungalow') && item.path.endsWith('.jpg'))?.path || '';
 
 // ─── Intersection-aware video wrapper ─────────────────────────────────────────
 const AutoPauseVideo = ({
@@ -35,12 +37,12 @@ const AutoPauseVideo = ({
           video.pause();
         }
       },
-      { threshold: 0.25 } // pause when less than 25% visible
+      { threshold: 0.25 }
     );
 
     observer.observe(video);
     return () => observer.disconnect();
-  }, []);
+  }, [src]);
 
   return (
     <video
@@ -62,13 +64,14 @@ const VideoSection = () => {
   const [expanded, setExpanded] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
+  if (videos.length === 0) return null;
+
   const featured = videos[0];
 
   const closeLightbox = () => setLightboxIndex(null);
   const prev = () => lightboxIndex !== null && setLightboxIndex((lightboxIndex - 1 + videos.length) % videos.length);
   const next = () => lightboxIndex !== null && setLightboxIndex((lightboxIndex + 1) % videos.length);
 
-  // Lock scroll when lightbox open
   useEffect(() => {
     document.body.style.overflow = lightboxIndex !== null ? 'hidden' : '';
     return () => { document.body.style.overflow = ''; };
@@ -82,7 +85,6 @@ const VideoSection = () => {
           <h2 className="section-title">Featured Video</h2>
         </div>
 
-        {/* Featured video — fullscreen allowed, no download / pip */}
         <div style={{
           position: 'relative',
           width: '100%',
@@ -102,7 +104,6 @@ const VideoSection = () => {
           />
         </div>
 
-        {/* View All / Collapse toggle */}
         <div style={{ textAlign: 'center', marginTop: '3rem' }}>
           <button
             onClick={() => setExpanded(v => !v)}
@@ -123,7 +124,6 @@ const VideoSection = () => {
           </button>
         </div>
 
-        {/* All Videos Grid */}
         {expanded && (
           <div style={{
             display: 'grid',
@@ -187,7 +187,6 @@ const VideoSection = () => {
         )}
       </div>
 
-      {/* Lightbox */}
       {lightboxIndex !== null && (
         <div
           onClick={closeLightbox}
@@ -232,7 +231,6 @@ const VideoSection = () => {
       )}
 
       <style>{`
-        /* Hide 3-dot overflow, download, picture-in-picture buttons */
         video::-webkit-media-controls-overflow-button { display: none !important; }
         video::-webkit-media-controls-download-button { display: none !important; }
         video::-webkit-media-controls-picture-in-picture-button { display: none !important; }

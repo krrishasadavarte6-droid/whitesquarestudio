@@ -1,29 +1,36 @@
 import { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { ArrowLeft, X, ChevronLeft, ChevronRight, Loader2 } from 'lucide-react';
+import manifest from '../assets-manifest.json';
 
-const imageModules = import.meta.glob('../assets/**/*.{jpg,png,jpeg}', { eager: true, query: '?url', import: 'default' });
+// Transform manifest into allProjects
+export const allProjects = manifest
+  .filter(item => {
+    const isImage = /\.(jpg|jpeg|png)$/i.test(item.path);
+    const isExcluded = ['logo', 'vision', 'react', 'vite', 'hero', 'main_home'].some(x => item.name.toLowerCase().includes(x));
+    return isImage && !isExcluded;
+  })
+  .map((item, index) => {
+    const parts = item.path.split('/');
+    const categoryFolder = parts[2];
+    
+    let category = 'All';
+    if (categoryFolder === 'Bungalow') category = 'Residential';
+    else if (categoryFolder === 'INTERIOR') category = 'Interior';
+    else if (categoryFolder === 'Residential High rise') category = 'High Rise';
+    else if (categoryFolder === 'commercial') category = 'Commercial';
+    else if (categoryFolder === 'industrial') category = 'Industrial';
+    else category = 'Other';
 
-export const allProjects = Object.entries(imageModules).map(([path, url], index) => {
-  const parts = path.split('/');
-  const categoryFolder = parts[2];
-  
-  let category = 'All';
-  if (categoryFolder === 'Bungalow') category = 'Residential';
-  else if (categoryFolder === 'INTERIOR') category = 'Interior';
-  else if (categoryFolder === 'Residential High rise') category = 'High Rise';
-  else if (categoryFolder === 'commercial') category = 'Commercial';
-  else if (categoryFolder === 'industrial') category = 'Industrial';
-  else category = 'Other';
-
-  return {
-    id: index + 1,
-    title: parts[parts.length - 1].replace(/\.[^/.]+$/, ""),
-    category,
-    image: url as string,
-    span: index % 4 === 0 ? 'tall' : index % 7 === 0 ? 'wide' : 'square'
-  };
-}).filter(p => !['logo', 'vision', 'react', 'vite', 'hero', 'main_home'].some(x => p.title.toLowerCase().includes(x)) && p.category !== 'Other');
+    return {
+      id: index + 1,
+      title: item.base.replace(/_/g, ' '),
+      category,
+      image: item.path,
+      span: index % 4 === 0 ? 'tall' : index % 7 === 0 ? 'wide' : 'square'
+    };
+  })
+  .filter(p => p.category !== 'Other');
 
 export const filters = ['All', 'Residential', 'Interior', 'Commercial', 'High Rise', 'Industrial'];
 
@@ -73,12 +80,10 @@ const AllGallery = () => {
     }
   }, [location]);
 
-  // Reset pagination when filter changes
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
   }, [activeFilter]);
 
-  // Lock body scroll when lightbox is open
   useEffect(() => {
     document.body.style.overflow = lightboxIndex !== null ? 'hidden' : '';
     return () => { document.body.style.overflow = ''; };
@@ -189,7 +194,6 @@ const AllGallery = () => {
           ))}
         </div>
 
-        {/* Load More */}
         {hasMore && (
           <div style={{ textAlign: 'center', marginTop: '3rem' }}>
             <button
@@ -223,7 +227,6 @@ const AllGallery = () => {
         )}
       </div>
 
-      {/* Lightbox */}
       {lightboxIndex !== null && (
         <div
           onClick={closeLightbox}
@@ -269,6 +272,7 @@ const AllGallery = () => {
             style={{ maxWidth: '90vw', maxHeight: '88vh', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}
           >
             <img
+              key={lightboxIndex}
               src={filteredProjects[lightboxIndex].image}
               alt={filteredProjects[lightboxIndex].title}
               decoding="async"

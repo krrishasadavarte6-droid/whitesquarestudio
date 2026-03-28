@@ -1,0 +1,704 @@
+﻿[
+    {
+        "path":  "/assets/hero.png",
+        "name":  "hero.png",
+        "size":  0.04,
+        "base":  "hero"
+    },
+    {
+        "path":  "/assets/logo.jpg",
+        "name":  "logo.jpg",
+        "size":  0.02,
+        "base":  "logo"
+    },
+    {
+        "path":  "/assets/main_home.jpg",
+        "name":  "main_home.jpg",
+        "size":  12.27,
+        "base":  "main_home"
+    },
+    {
+        "path":  "/assets/Vision.jpg",
+        "name":  "Vision.jpg",
+        "size":  17.31,
+        "base":  "Vision"
+    },
+    {
+        "path":  "/assets/Bungalow/cam-02.jpg",
+        "name":  "cam-02.jpg",
+        "size":  3.11,
+        "base":  "cam-02"
+    },
+    {
+        "path":  "/assets/Bungalow/cam-03.jpg",
+        "name":  "cam-03.jpg",
+        "size":  2.53,
+        "base":  "cam-03"
+    },
+    {
+        "path":  "/assets/Bungalow/cam-04.jpg",
+        "name":  "cam-04.jpg",
+        "size":  3.58,
+        "base":  "cam-04"
+    },
+    {
+        "path":  "/assets/Bungalow/Dabhel_Day_cam-05_night.jpg",
+        "name":  "Dabhel_Day_cam-05_night.jpg",
+        "size":  18.43,
+        "base":  "Dabhel_Day_cam-05_night"
+    },
+    {
+        "path":  "/assets/Bungalow/Dihen_cam-011.jpg",
+        "name":  "Dihen_cam-011.jpg",
+        "size":  18.04,
+        "base":  "Dihen_cam-011"
+    },
+    {
+        "path":  "/assets/Bungalow/Dihen_cam-03.jpg",
+        "name":  "Dihen_cam-03.jpg",
+        "size":  35.66,
+        "base":  "Dihen_cam-03"
+    },
+    {
+        "path":  "/assets/Bungalow/Dihen_cam-14.jpg",
+        "name":  "Dihen_cam-14.jpg",
+        "size":  17.68,
+        "base":  "Dihen_cam-14"
+    },
+    {
+        "path":  "/assets/Bungalow/Dihen_cam-22.jpg",
+        "name":  "Dihen_cam-22.jpg",
+        "size":  15.38,
+        "base":  "Dihen_cam-22"
+    },
+    {
+        "path":  "/assets/Bungalow/Dihen_cam-35.jpg",
+        "name":  "Dihen_cam-35.jpg",
+        "size":  17.25,
+        "base":  "Dihen_cam-35"
+    },
+    {
+        "path":  "/assets/Bungalow/Dihen_cam-38.jpg",
+        "name":  "Dihen_cam-38.jpg",
+        "size":  17.74,
+        "base":  "Dihen_cam-38"
+    },
+    {
+        "path":  "/assets/Bungalow/karma cam-03-new.jpg",
+        "name":  "karma cam-03-new.jpg",
+        "size":  9.41,
+        "base":  "karma cam-03-new"
+    },
+    {
+        "path":  "/assets/Bungalow/Madhuvan cam-019-1.jpg",
+        "name":  "Madhuvan cam-019-1.jpg",
+        "size":  12.27,
+        "base":  "Madhuvan cam-019-1"
+    },
+    {
+        "path":  "/assets/Bungalow/Madhuvan cam-04-1.jpg",
+        "name":  "Madhuvan cam-04-1.jpg",
+        "size":  9.33,
+        "base":  "Madhuvan cam-04-1"
+    },
+    {
+        "path":  "/assets/Bungalow/Madhuvan cam-09-1.jpg",
+        "name":  "Madhuvan cam-09-1.jpg",
+        "size":  13.87,
+        "base":  "Madhuvan cam-09-1"
+    },
+    {
+        "path":  "/assets/Bungalow/Madhuvan_  cam-014-1.jpg",
+        "name":  "Madhuvan_  cam-014-1.jpg",
+        "size":  10.35,
+        "base":  "Madhuvan_  cam-014-1"
+    },
+    {
+        "path":  "/assets/Bungalow/Madhuvan_  cam-016-1.jpg",
+        "name":  "Madhuvan_  cam-016-1.jpg",
+        "size":  9.27,
+        "base":  "Madhuvan_  cam-016-1"
+    },
+    {
+        "path":  "/assets/Bungalow/MADHUVAN_cam 01-1.jpg",
+        "name":  "MADHUVAN_cam 01-1.jpg",
+        "size":  13.1,
+        "base":  "MADHUVAN_cam 01-1"
+    },
+    {
+        "path":  "/assets/Bungalow/Mayankbhai_cam-01.jpg",
+        "name":  "Mayankbhai_cam-01.jpg",
+        "size":  2.32,
+        "base":  "Mayankbhai_cam-01"
+    },
+    {
+        "path":  "/assets/Bungalow/Mayankbhai_cam-014-.jpg",
+        "name":  "Mayankbhai_cam-014-.jpg",
+        "size":  2.41,
+        "base":  "Mayankbhai_cam-014-"
+    },
+    {
+        "path":  "/assets/Bungalow/Mayankbhai_cam-02-01.jpg",
+        "name":  "Mayankbhai_cam-02-01.jpg",
+        "size":  2.94,
+        "base":  "Mayankbhai_cam-02-01"
+    },
+    {
+        "path":  "/assets/Bungalow/SHIV VILLA_cam-01.jpg",
+        "name":  "SHIV VILLA_cam-01.jpg",
+        "size":  7.99,
+        "base":  "SHIV VILLA_cam-01"
+    },
+    {
+        "path":  "/assets/Bungalow/SHIV VILLA_Cam-11.jpg",
+        "name":  "SHIV VILLA_Cam-11.jpg",
+        "size":  13.14,
+        "base":  "SHIV VILLA_Cam-11"
+    },
+    {
+        "path":  "/assets/commercial/bhestan cam-001.jpg",
+        "name":  "bhestan cam-001.jpg",
+        "size":  17.31,
+        "base":  "bhestan cam-001"
+    },
+    {
+        "path":  "/assets/commercial/bhestan cam-002.jpg",
+        "name":  "bhestan cam-002.jpg",
+        "size":  17.31,
+        "base":  "bhestan cam-002"
+    },
+    {
+        "path":  "/assets/commercial/cam-012_logo.jpg",
+        "name":  "cam-012_logo.jpg",
+        "size":  2.21,
+        "base":  "cam-012_logo"
+    },
+    {
+        "path":  "/assets/commercial/cam-018_logo.jpg",
+        "name":  "cam-018_logo.jpg",
+        "size":  4.12,
+        "base":  "cam-018_logo"
+    },
+    {
+        "path":  "/assets/commercial/cam-03_logo.jpg",
+        "name":  "cam-03_logo.jpg",
+        "size":  15.06,
+        "base":  "cam-03_logo"
+    },
+    {
+        "path":  "/assets/commercial/cam-04.jpg",
+        "name":  "cam-04.jpg",
+        "size":  17.57,
+        "base":  "cam-04"
+    },
+    {
+        "path":  "/assets/commercial/cam-06_logo.jpg",
+        "name":  "cam-06_logo.jpg",
+        "size":  12.76,
+        "base":  "cam-06_logo"
+    },
+    {
+        "path":  "/assets/commercial/Cybercity_cam-019.jpg",
+        "name":  "Cybercity_cam-019.jpg",
+        "size":  14.45,
+        "base":  "Cybercity_cam-019"
+    },
+    {
+        "path":  "/assets/commercial/Cybercity_cam-023.jpg",
+        "name":  "Cybercity_cam-023.jpg",
+        "size":  23.37,
+        "base":  "Cybercity_cam-023"
+    },
+    {
+        "path":  "/assets/commercial/IT Park_011-1.jpg",
+        "name":  "IT Park_011-1.jpg",
+        "size":  10,
+        "base":  "IT Park_011-1"
+    },
+    {
+        "path":  "/assets/commercial/IT Park_014-1.jpg",
+        "name":  "IT Park_014-1.jpg",
+        "size":  15.37,
+        "base":  "IT Park_014-1"
+    },
+    {
+        "path":  "/assets/commercial/IT Park_02-1.jpg",
+        "name":  "IT Park_02-1.jpg",
+        "size":  15.62,
+        "base":  "IT Park_02-1"
+    },
+    {
+        "path":  "/assets/commercial/IT Park_04-1.jpg",
+        "name":  "IT Park_04-1.jpg",
+        "size":  15.34,
+        "base":  "IT Park_04-1"
+    },
+    {
+        "path":  "/assets/commercial/IT Park_05-1.jpg",
+        "name":  "IT Park_05-1.jpg",
+        "size":  14.32,
+        "base":  "IT Park_05-1"
+    },
+    {
+        "path":  "/assets/commercial/KARMA business centre 2_cam-02.jpg",
+        "name":  "KARMA business centre 2_cam-02.jpg",
+        "size":  22.34,
+        "base":  "KARMA business centre 2_cam-02"
+    },
+    {
+        "path":  "/assets/commercial/karma cam-012.jpg",
+        "name":  "karma cam-012.jpg",
+        "size":  23.56,
+        "base":  "karma cam-012"
+    },
+    {
+        "path":  "/assets/commercial/karma_cam-011.jpg",
+        "name":  "karma_cam-011.jpg",
+        "size":  23.86,
+        "base":  "karma_cam-011"
+    },
+    {
+        "path":  "/assets/commercial/Katargam_opt-05_cam-01.jpg",
+        "name":  "Katargam_opt-05_cam-01.jpg",
+        "size":  7.15,
+        "base":  "Katargam_opt-05_cam-01"
+    },
+    {
+        "path":  "/assets/commercial/KBC CAM_011.jpg",
+        "name":  "KBC CAM_011.jpg",
+        "size":  14.24,
+        "base":  "KBC CAM_011"
+    },
+    {
+        "path":  "/assets/commercial/SHYAM SQUARE CAM-02 new.jpg",
+        "name":  "SHYAM SQUARE CAM-02 new.jpg",
+        "size":  12.31,
+        "base":  "SHYAM SQUARE CAM-02 new"
+    },
+    {
+        "path":  "/assets/commercial/Silver Icon cam-03.jpg",
+        "name":  "Silver Icon cam-03.jpg",
+        "size":  21.78,
+        "base":  "Silver Icon cam-03"
+    },
+    {
+        "path":  "/assets/commercial/Silver Icon cam-08.jpg",
+        "name":  "Silver Icon cam-08.jpg",
+        "size":  14.25,
+        "base":  "Silver Icon cam-08"
+    },
+    {
+        "path":  "/assets/commercial/TBW_OPT-04_CAM-03.jpg",
+        "name":  "TBW_OPT-04_CAM-03.jpg",
+        "size":  7.7,
+        "base":  "TBW_OPT-04_CAM-03"
+    },
+    {
+        "path":  "/assets/industrial/BILIPATRA HEIGHTS_OPT-01_CAM-01.jpg",
+        "name":  "BILIPATRA HEIGHTS_OPT-01_CAM-01.jpg",
+        "size":  6.97,
+        "base":  "BILIPATRA HEIGHTS_OPT-01_CAM-01"
+    },
+    {
+        "path":  "/assets/industrial/BILIPATRA HEIGHTS_OPT-02_CAM-02.jpg",
+        "name":  "BILIPATRA HEIGHTS_OPT-02_CAM-02.jpg",
+        "size":  5.95,
+        "base":  "BILIPATRA HEIGHTS_OPT-02_CAM-02"
+    },
+    {
+        "path":  "/assets/industrial/coconut-cam-11 gate 01.jpg",
+        "name":  "coconut-cam-11 gate 01.jpg",
+        "size":  3.09,
+        "base":  "coconut-cam-11 gate 01"
+    },
+    {
+        "path":  "/assets/industrial/COCONUT_cam-01.jpg",
+        "name":  "COCONUT_cam-01.jpg",
+        "size":  20.53,
+        "base":  "COCONUT_cam-01"
+    },
+    {
+        "path":  "/assets/industrial/COCONUT_cam-02.jpg",
+        "name":  "COCONUT_cam-02.jpg",
+        "size":  7.42,
+        "base":  "COCONUT_cam-02"
+    },
+    {
+        "path":  "/assets/industrial/COCONUT_cam-03.jpg",
+        "name":  "COCONUT_cam-03.jpg",
+        "size":  22.66,
+        "base":  "COCONUT_cam-03"
+    },
+    {
+        "path":  "/assets/industrial/COCONUT_cam-05 .jpg",
+        "name":  "COCONUT_cam-05 .jpg",
+        "size":  20.72,
+        "base":  "COCONUT_cam-05 "
+    },
+    {
+        "path":  "/assets/industrial/COCONUT_cam-06.jpg",
+        "name":  "COCONUT_cam-06.jpg",
+        "size":  26.9,
+        "base":  "COCONUT_cam-06"
+    },
+    {
+        "path":  "/assets/industrial/COCONUT_cam-08.jpg",
+        "name":  "COCONUT_cam-08.jpg",
+        "size":  13.04,
+        "base":  "COCONUT_cam-08"
+    },
+    {
+        "path":  "/assets/industrial/COCONUT_CAM-09.jpg",
+        "name":  "COCONUT_CAM-09.jpg",
+        "size":  4.54,
+        "base":  "COCONUT_CAM-09"
+    },
+    {
+        "path":  "/assets/industrial/Krunesh Luxuria Cam 01 new_logo.jpg",
+        "name":  "Krunesh Luxuria Cam 01 new_logo.jpg",
+        "size":  13.69,
+        "base":  "Krunesh Luxuria Cam 01 new_logo"
+    },
+    {
+        "path":  "/assets/industrial/Krunesh Luxuria Cam 09_logo.jpg",
+        "name":  "Krunesh Luxuria Cam 09_logo.jpg",
+        "size":  12.46,
+        "base":  "Krunesh Luxuria Cam 09_logo"
+    },
+    {
+        "path":  "/assets/industrial/mahavitaran_00-1.jpg",
+        "name":  "mahavitaran_00-1.jpg",
+        "size":  11.15,
+        "base":  "mahavitaran_00-1"
+    },
+    {
+        "path":  "/assets/industrial/mahavitaran_01-1.jpg",
+        "name":  "mahavitaran_01-1.jpg",
+        "size":  10.57,
+        "base":  "mahavitaran_01-1"
+    },
+    {
+        "path":  "/assets/industrial/mahavitaran_03- -01.jpg",
+        "name":  "mahavitaran_03- -01.jpg",
+        "size":  10.51,
+        "base":  "mahavitaran_03- -01"
+    },
+    {
+        "path":  "/assets/industrial/Parvat TP 19 FP 39 - cam-016.jpg",
+        "name":  "Parvat TP 19 FP 39 - cam-016.jpg",
+        "size":  15.08,
+        "base":  "Parvat TP 19 FP 39 - cam-016"
+    },
+    {
+        "path":  "/assets/industrial/Parvat TP 19 FP 39 - cam-018.jpg",
+        "name":  "Parvat TP 19 FP 39 - cam-018.jpg",
+        "size":  20.69,
+        "base":  "Parvat TP 19 FP 39 - cam-018"
+    },
+    {
+        "path":  "/assets/industrial/Parvat TP 19 FP 39 - cam-01_logo.jpg",
+        "name":  "Parvat TP 19 FP 39 - cam-01_logo.jpg",
+        "size":  8.21,
+        "base":  "Parvat TP 19 FP 39 - cam-01_logo"
+    },
+    {
+        "path":  "/assets/industrial/Parvat TP 19 FP 39 - cam-02_logo.jpg",
+        "name":  "Parvat TP 19 FP 39 - cam-02_logo.jpg",
+        "size":  13.86,
+        "base":  "Parvat TP 19 FP 39 - cam-02_logo"
+    },
+    {
+        "path":  "/assets/industrial/SCW_cam-031_logo.jpg",
+        "name":  "SCW_cam-031_logo.jpg",
+        "size":  11.02,
+        "base":  "SCW_cam-031_logo"
+    },
+    {
+        "path":  "/assets/industrial/sky elenza_cam-02.jpg",
+        "name":  "sky elenza_cam-02.jpg",
+        "size":  7.12,
+        "base":  "sky elenza_cam-02"
+    },
+    {
+        "path":  "/assets/industrial/sky elenza_Cam_01.jpg",
+        "name":  "sky elenza_Cam_01.jpg",
+        "size":  11.17,
+        "base":  "sky elenza_Cam_01"
+    },
+    {
+        "path":  "/assets/industrial/sky elenza_Cam_18 night.jpg",
+        "name":  "sky elenza_Cam_18 night.jpg",
+        "size":  14.97,
+        "base":  "sky elenza_Cam_18 night"
+    },
+    {
+        "path":  "/assets/industrial/sky elenza_cop_Cam_18 night.jpg",
+        "name":  "sky elenza_cop_Cam_18 night.jpg",
+        "size":  5.63,
+        "base":  "sky elenza_cop_Cam_18 night"
+    },
+    {
+        "path":  "/assets/industrial/skycity luxuria_017-1.jpg",
+        "name":  "skycity luxuria_017-1.jpg",
+        "size":  14.21,
+        "base":  "skycity luxuria_017-1"
+    },
+    {
+        "path":  "/assets/industrial/skycity luxuria_021-1.jpg",
+        "name":  "skycity luxuria_021-1.jpg",
+        "size":  13.03,
+        "base":  "skycity luxuria_021-1"
+    },
+    {
+        "path":  "/assets/industrial/skycity luxuria_027-1.jpg",
+        "name":  "skycity luxuria_027-1.jpg",
+        "size":  1.56,
+        "base":  "skycity luxuria_027-1"
+    },
+    {
+        "path":  "/assets/industrial/united cam-010_logo.jpg",
+        "name":  "united cam-010_logo.jpg",
+        "size":  10.02,
+        "base":  "united cam-010_logo"
+    },
+    {
+        "path":  "/assets/industrial/united cam-016 night_logo.jpg",
+        "name":  "united cam-016 night_logo.jpg",
+        "size":  9.44,
+        "base":  "united cam-016 night_logo"
+    },
+    {
+        "path":  "/assets/INTERIOR/bedroom-03-cam-01.jpg",
+        "name":  "bedroom-03-cam-01.jpg",
+        "size":  0.73,
+        "base":  "bedroom-03-cam-01"
+    },
+    {
+        "path":  "/assets/INTERIOR/CAFE_cam-01.jpg",
+        "name":  "CAFE_cam-01.jpg",
+        "size":  3.23,
+        "base":  "CAFE_cam-01"
+    },
+    {
+        "path":  "/assets/INTERIOR/CAFE_cam-03.jpg",
+        "name":  "CAFE_cam-03.jpg",
+        "size":  3.03,
+        "base":  "CAFE_cam-03"
+    },
+    {
+        "path":  "/assets/INTERIOR/CAFE_cam-06.jpg",
+        "name":  "CAFE_cam-06.jpg",
+        "size":  4.91,
+        "base":  "CAFE_cam-06"
+    },
+    {
+        "path":  "/assets/INTERIOR/dining room.jpg",
+        "name":  "dining room.jpg",
+        "size":  9.79,
+        "base":  "dining room"
+    },
+    {
+        "path":  "/assets/INTERIOR/fOYER_CAM-01.jpg",
+        "name":  "fOYER_CAM-01.jpg",
+        "size":  1.32,
+        "base":  "fOYER_CAM-01"
+    },
+    {
+        "path":  "/assets/INTERIOR/Interior_011-1.jpg",
+        "name":  "Interior_011-1.jpg",
+        "size":  8.94,
+        "base":  "Interior_011-1"
+    },
+    {
+        "path":  "/assets/INTERIOR/Interior_08-1.jpg",
+        "name":  "Interior_08-1.jpg",
+        "size":  9.18,
+        "base":  "Interior_08-1"
+    },
+    {
+        "path":  "/assets/INTERIOR/Living Room_cam-01.jpg",
+        "name":  "Living Room_cam-01.jpg",
+        "size":  0.7,
+        "base":  "Living Room_cam-01"
+    },
+    {
+        "path":  "/assets/INTERIOR/LIVING ROOM_cam-02.jpg",
+        "name":  "LIVING ROOM_cam-02.jpg",
+        "size":  5.92,
+        "base":  "LIVING ROOM_cam-02"
+    },
+    {
+        "path":  "/assets/Residential High rise/BILIPATRA HEIGHTS_OPT-01_CAM-01.jpg",
+        "name":  "BILIPATRA HEIGHTS_OPT-01_CAM-01.jpg",
+        "size":  6.97,
+        "base":  "BILIPATRA HEIGHTS_OPT-01_CAM-01"
+    },
+    {
+        "path":  "/assets/Residential High rise/BILIPATRA HEIGHTS_OPT-02_CAM-02.jpg",
+        "name":  "BILIPATRA HEIGHTS_OPT-02_CAM-02.jpg",
+        "size":  5.95,
+        "base":  "BILIPATRA HEIGHTS_OPT-02_CAM-02"
+    },
+    {
+        "path":  "/assets/Residential High rise/coconut-cam-11 gate 01.jpg",
+        "name":  "coconut-cam-11 gate 01.jpg",
+        "size":  3.09,
+        "base":  "coconut-cam-11 gate 01"
+    },
+    {
+        "path":  "/assets/Residential High rise/COCONUT_cam-01.jpg",
+        "name":  "COCONUT_cam-01.jpg",
+        "size":  20.53,
+        "base":  "COCONUT_cam-01"
+    },
+    {
+        "path":  "/assets/Residential High rise/COCONUT_cam-02.jpg",
+        "name":  "COCONUT_cam-02.jpg",
+        "size":  7.42,
+        "base":  "COCONUT_cam-02"
+    },
+    {
+        "path":  "/assets/Residential High rise/COCONUT_cam-03.jpg",
+        "name":  "COCONUT_cam-03.jpg",
+        "size":  22.66,
+        "base":  "COCONUT_cam-03"
+    },
+    {
+        "path":  "/assets/Residential High rise/COCONUT_cam-05 .jpg",
+        "name":  "COCONUT_cam-05 .jpg",
+        "size":  20.72,
+        "base":  "COCONUT_cam-05 "
+    },
+    {
+        "path":  "/assets/Residential High rise/COCONUT_cam-06.jpg",
+        "name":  "COCONUT_cam-06.jpg",
+        "size":  26.9,
+        "base":  "COCONUT_cam-06"
+    },
+    {
+        "path":  "/assets/Residential High rise/COCONUT_cam-08.jpg",
+        "name":  "COCONUT_cam-08.jpg",
+        "size":  13.04,
+        "base":  "COCONUT_cam-08"
+    },
+    {
+        "path":  "/assets/Residential High rise/COCONUT_CAM-09.jpg",
+        "name":  "COCONUT_CAM-09.jpg",
+        "size":  4.54,
+        "base":  "COCONUT_CAM-09"
+    },
+    {
+        "path":  "/assets/Residential High rise/Krunesh Luxuria Cam 01 new_logo.jpg",
+        "name":  "Krunesh Luxuria Cam 01 new_logo.jpg",
+        "size":  13.69,
+        "base":  "Krunesh Luxuria Cam 01 new_logo"
+    },
+    {
+        "path":  "/assets/Residential High rise/Krunesh Luxuria Cam 09_logo.jpg",
+        "name":  "Krunesh Luxuria Cam 09_logo.jpg",
+        "size":  12.46,
+        "base":  "Krunesh Luxuria Cam 09_logo"
+    },
+    {
+        "path":  "/assets/Residential High rise/mahavitaran_00-1.jpg",
+        "name":  "mahavitaran_00-1.jpg",
+        "size":  11.15,
+        "base":  "mahavitaran_00-1"
+    },
+    {
+        "path":  "/assets/Residential High rise/mahavitaran_01-1.jpg",
+        "name":  "mahavitaran_01-1.jpg",
+        "size":  10.57,
+        "base":  "mahavitaran_01-1"
+    },
+    {
+        "path":  "/assets/Residential High rise/mahavitaran_03- -01.jpg",
+        "name":  "mahavitaran_03- -01.jpg",
+        "size":  10.51,
+        "base":  "mahavitaran_03- -01"
+    },
+    {
+        "path":  "/assets/Residential High rise/Parvat TP 19 FP 39 - cam-016.jpg",
+        "name":  "Parvat TP 19 FP 39 - cam-016.jpg",
+        "size":  15.08,
+        "base":  "Parvat TP 19 FP 39 - cam-016"
+    },
+    {
+        "path":  "/assets/Residential High rise/Parvat TP 19 FP 39 - cam-018.jpg",
+        "name":  "Parvat TP 19 FP 39 - cam-018.jpg",
+        "size":  20.69,
+        "base":  "Parvat TP 19 FP 39 - cam-018"
+    },
+    {
+        "path":  "/assets/Residential High rise/Parvat TP 19 FP 39 - cam-01_logo.jpg",
+        "name":  "Parvat TP 19 FP 39 - cam-01_logo.jpg",
+        "size":  8.21,
+        "base":  "Parvat TP 19 FP 39 - cam-01_logo"
+    },
+    {
+        "path":  "/assets/Residential High rise/Parvat TP 19 FP 39 - cam-02_logo.jpg",
+        "name":  "Parvat TP 19 FP 39 - cam-02_logo.jpg",
+        "size":  13.86,
+        "base":  "Parvat TP 19 FP 39 - cam-02_logo"
+    },
+    {
+        "path":  "/assets/Residential High rise/SCW_cam-031_logo.jpg",
+        "name":  "SCW_cam-031_logo.jpg",
+        "size":  11.02,
+        "base":  "SCW_cam-031_logo"
+    },
+    {
+        "path":  "/assets/Residential High rise/sky elenza_cam-02.jpg",
+        "name":  "sky elenza_cam-02.jpg",
+        "size":  7.12,
+        "base":  "sky elenza_cam-02"
+    },
+    {
+        "path":  "/assets/Residential High rise/sky elenza_Cam_01.jpg",
+        "name":  "sky elenza_Cam_01.jpg",
+        "size":  11.17,
+        "base":  "sky elenza_Cam_01"
+    },
+    {
+        "path":  "/assets/Residential High rise/sky elenza_Cam_18 night.jpg",
+        "name":  "sky elenza_Cam_18 night.jpg",
+        "size":  14.97,
+        "base":  "sky elenza_Cam_18 night"
+    },
+    {
+        "path":  "/assets/Residential High rise/sky elenza_cop_Cam_18 night.jpg",
+        "name":  "sky elenza_cop_Cam_18 night.jpg",
+        "size":  5.63,
+        "base":  "sky elenza_cop_Cam_18 night"
+    },
+    {
+        "path":  "/assets/Residential High rise/skycity luxuria_017-1.jpg",
+        "name":  "skycity luxuria_017-1.jpg",
+        "size":  14.21,
+        "base":  "skycity luxuria_017-1"
+    },
+    {
+        "path":  "/assets/Residential High rise/skycity luxuria_021-1.jpg",
+        "name":  "skycity luxuria_021-1.jpg",
+        "size":  13.03,
+        "base":  "skycity luxuria_021-1"
+    },
+    {
+        "path":  "/assets/Residential High rise/skycity luxuria_027-1.jpg",
+        "name":  "skycity luxuria_027-1.jpg",
+        "size":  1.56,
+        "base":  "skycity luxuria_027-1"
+    },
+    {
+        "path":  "/assets/Residential High rise/united cam-010_logo.jpg",
+        "name":  "united cam-010_logo.jpg",
+        "size":  10.02,
+        "base":  "united cam-010_logo"
+    },
+    {
+        "path":  "/assets/Residential High rise/united cam-016 night_logo.jpg",
+        "name":  "united cam-016 night_logo.jpg",
+        "size":  9.44,
+        "base":  "united cam-016 night_logo"
+    }
+]
